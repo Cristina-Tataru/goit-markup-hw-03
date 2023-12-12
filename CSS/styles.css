@@ -35,10 +35,13 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 
-.list {
+.menu-list {
+  display: flex;
   list-style: none;
+  gap: 40px;
 }
 
 .link {
@@ -57,6 +60,7 @@ body {
   font-weight: 500;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 24px 0;
 }
 
 .list-address {
@@ -77,10 +81,28 @@ a:focus {
 
 .address {
   font-style: normal;
+  display: flex;
+  gap: 40px;
+}
+
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.header-div-container {
+  display: flex;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0.15px;
+}
+.navigation-bar {
+  display: flex;
+  align-items: center;
 }
 
 .main-section {
   background-color: #2e2f42;
+  padding: 188px;
 }
 
 .main-section-header {
@@ -89,6 +111,16 @@ a:focus {
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
+  max-width: 496px;
+}
+
+.section-two {
+  padding: 120px 0;
+}
+
+.list {
+  display: flex;
+  gap: 24px;
 }
 
 .main-section-two-header {
@@ -97,11 +129,20 @@ a:focus {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  width: calc((100% - 3 * 24px) / 4);
+  margin-bottom: 8px;
+  text-align: center;
+  margin-bottom: 8px;
 }
 
 .main-section-two-pone {
   letter-spacing: 0.02em;
   color: #434455;
+  text-align: center;
+}
+
+.section-three {
+  padding-bottom: 120px;
 }
 
 .main-section-three-header {
@@ -110,14 +151,27 @@ a:focus {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
+}
+
+.list-section-three {
+  display: flex;
+  gap: 24px;
+}
+
+.image-section {
+  width: calc((100% - 48px) / 3);
 }
 
 .main-section-four {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 
 .main-section-four-li {
   background-color: #ffffff;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .main-section-four-header {
@@ -127,6 +181,16 @@ a:focus {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
+}
+
+.name-job-container {
+  padding: 32px 0;
+}
+
+.list-section-four {
+  display: flex;
+  gap: 24px;
 }
 
 .btn {
@@ -141,6 +205,11 @@ a:focus {
   color: #4d5ae5;
   background-color: #f4f4fd;
   cursor: pointer;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
 }
 
 .btn:focus {
