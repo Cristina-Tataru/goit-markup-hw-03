@@ -126,9 +126,15 @@ a:focus {
   padding: 120px 0;
 }
 
+.visually-hidden {
+  visibility: hidden;
+  pointer-events: none;
+  position: absolute;
+}
+
 .list {
   display: flex;
-  gap: 40px;
+  gap: 24px;
 }
 
 .main-section-two-header {
