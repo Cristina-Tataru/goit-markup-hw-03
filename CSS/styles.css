@@ -127,7 +127,7 @@ a:focus {
 }
 
 .section-two-li {
-  flex-basis: calc((100%-72px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 .visually-hidden {
