@@ -96,6 +96,11 @@ a:focus {
   padding: 0.15px;
   justify-content: space-between;
 }
+
+.container {
+  padding: 0.15px;
+}
+
 .navigation-bar {
   display: flex;
   align-items: center;
@@ -121,7 +126,7 @@ a:focus {
 
 .list {
   display: flex;
-  gap: 24px;
+  gap: 40px;
 }
 
 .main-section-two-header {
