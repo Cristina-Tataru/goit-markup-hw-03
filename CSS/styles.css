@@ -127,7 +127,7 @@ a:focus {
 }
 
 .section-two-li {
-  width: calc(100% - 72px);
+  width: calc((100% - 72px) / 4);
 }
 
 .visually-hidden {
