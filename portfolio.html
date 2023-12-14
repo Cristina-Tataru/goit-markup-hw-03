@@ -13,29 +13,34 @@
     <link rel="stylesheet" href="./CSS/styles.css" />
     <link
       rel="stylesheet"
-      href="node_modules/modern-normalize/modern-normalize.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
     />
   </head>
   <body>
     <!--header-->
-    <header>
+    <header class="header">
       <!--Navigation bar-->
-      <nav>
-        <a class="logo link" href="./index.html"
-          >Web<span class="logo-studio">Studio</span></a
-        >
-        <ul class="list">
-          <li><a href="./index.html" class="list-a link">Studio</a></li>
-          <li><a href="./portfolio.html" class="list-a link">Portfolio</a></li>
-          <li><a href="" class="list-a link">Contacts</a></li>
-        </ul>
-      </nav>
+      <div class="header-div-container container">
+        <nav class="navigation-bar">
+          <a class="logo link" href="./index.html"
+            >Web<span class="logo-studio">Studio</span></a
+          >
+          <ul class="menu-list">
+            <li><a href="./index.html" class="list-a link">Studio</a></li>
+            <li>
+              <a href="./portfolio.html" class="list-a link">Portfolio</a>
+            </li>
+            <li><a href="" class="list-a link">Contacts</a></li>
+          </ul>
+        </nav>
 
       <!--Contact information-->
       <address class="address">
         <ul class="list">
           <li>
-            <a href="mailto:info@devstudio.com" class="list-a list-address link"
+            <a
+              href="mailto:info@devstudio.com"
+              class="list-a list-address link"
               >info@devstudio.com</a
             >
           </li>
@@ -46,7 +51,8 @@
           </li>
         </ul>
       </address>
-    </header>
+    </div>
+  </header>
     <!--main-->
     <main>
       <!--section buttons-->
