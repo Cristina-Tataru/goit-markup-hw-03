@@ -41,14 +41,13 @@ body {
 .menu-list {
   display: flex;
   list-style: none;
-  gap: 40px;
 }
 
-.menu-list > li {
+.menu-list li {
   margin-right: 40px;
 }
 
-.menu-list > li:last-child {
+.menu-list li:last-child {
   margin-right:0;
 }
 
