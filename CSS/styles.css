@@ -137,7 +137,7 @@ a:focus {
 
 .section-two-li {
   margin-right: 24px;
-  flex-basis: calc((100% - 72)/4);
+  flex-basis: calc(25% - 18px);
 }
 
 .section-two-li:last-child{
