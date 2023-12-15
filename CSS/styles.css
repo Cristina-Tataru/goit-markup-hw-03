@@ -146,6 +146,8 @@ a:focus {
 .list {
   display: flex;
   gap: 24px;
+  flex-wrap: wrap;
+  row-gap: 42px;
 }
 
 .main-section-two-header {
@@ -291,6 +293,7 @@ a:focus {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .section{
