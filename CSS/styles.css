@@ -147,7 +147,8 @@ a:focus {
   display: flex;
   gap: 24px;
   flex-wrap: wrap;
-  row-gap: 42px;
+  row-gap: 48px;
+
 }
 
 .main-section-two-header {
