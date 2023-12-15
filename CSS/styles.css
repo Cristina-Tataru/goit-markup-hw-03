@@ -273,6 +273,7 @@ a:focus {
   font-family: "Roboto", sans-serif;
   color: #ffffff;
   cursor: pointer;
+  border: none;
 }
 
 .main-btn:focus {
