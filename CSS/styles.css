@@ -41,6 +41,7 @@ body {
 .menu-list {
   display: flex;
   list-style: none;
+  gap: 40px;
 }
 
 .link {
