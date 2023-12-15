@@ -131,6 +131,10 @@ a:focus {
   flex-basis: calc((100% - 72px)/4);
 }
 
+.section-two-li:last-child{
+  margin-right: 0;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -151,9 +155,6 @@ a:focus {
 
 }
 
-.li-bottom{
-  margin-right: 0;
-}
 
 .main-section-two-header {
   font-weight: 500;
